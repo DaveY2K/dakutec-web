@@ -1,0 +1,2 @@
+const interFont = fetch(new URL("./Inter-SemiBold.ttf", import.meta.url))
+  .then(r => r.arrayBuffer());

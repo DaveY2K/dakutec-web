@@ -1,0 +1,381 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "rfq": "Request a Quote (RFQ)",
+    "contact": "Contact"
+  },
+
+
+"legal": {
+  "title": "Legal",
+  "privacy": "Privacy Policy",
+  "terms": "Terms & Conditions",
+  "updated": "Last update: 30 November 2025",
+  "disclaimer": "The text on this page is a temporary, simplified placeholder and does not constitute legal advice."
+},
+"privacyPage": {
+  "intro": "Below you will find basic information about how we handle personal data in connection with RFQs and CNC manufacturing services.",
+  "sections": [
+    {
+      "title": "1. Data controller",
+      "body": "The data controller is DakuTec s.r.o. (working name), registered office to be completed. This text is a placeholder and will be replaced after consultation with a legal professional."
+    },
+    {
+      "title": "2. What data we process",
+      "body": "We mainly process identification and contact details, technical documentation for your parts and our communication with you. The exact scope and legal bases will be added in the final version of the privacy policy."
+    },
+    {
+      "title": "3. Cookies and analytics",
+      "body": "The website currently uses only essential technical cookies necessary for its operation. Once we introduce analytics or marketing tools, this privacy and cookies section will be updated accordingly."
+    },
+    {
+      "title": "4. Your rights",
+      "body": "Under the GDPR you have rights such as access, rectification, erasure, restriction of processing and others. The detailed description of how to exercise these rights will be provided in the final document."
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"termsPage": {
+  "intro": "Below you will find a basic working framework for cooperation on CNC machining and related services. This text is temporary and will later be replaced by full terms & conditions.",
+  "sections": [
+    {
+      "title": "1. Scope of services",
+      "body": "DakuTec primarily provides CNC machining, CAM programming, fixture design and related technical consultancy. The exact scope is always defined in the quotation or purchase order."
+    },
+    {
+      "title": "2. Quotation and pricing",
+      "body": "Prices are set individually based on part complexity, material, tolerances and requested lead time. Each quotation is valid only for a limited period and may depend on receiving complete technical data."
+    },
+    {
+      "title": "3. Delivery times",
+      "body": "Delivery dates are indicative and may be affected by material availability, design changes and other factors. Detailed provisions regarding delays and contractual penalties will be added later."
+    },
+    {
+      "title": "4. Liability and quality",
+      "body": "We manufacture parts with a strong focus on accuracy, repeatability and traceability. Final wording regarding liability, warranty and claims handling will follow after legal review."
+    }
+  ]
+},
+
+
+
+  
+  "rfq": {
+    "title": "Request a Quote (RFQ)",
+    "thanksTitle": "Thank you! We’ve received your request.",
+    "thanksSubtitle": "We’ll get back to you shortly.",
+    "note": "Attach a drawing or STEP/IGES and specify material, quantity, tolerance and desired lead time.",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message / specification",
+    "files": "Attachments (STEP/PDF etc.)",
+    "submit": "Send request",
+    "success": "Thanks! We’ll reply soon with pricing and lead time.",
+    "error": "Submission failed. Please try again or contact us by phone."
+  },
+
+  "footer": {
+    "rights": "All rights reserved.",
+    "links": "Links",
+    "legal": "Legal",
+    "contact": "Contact",
+    "services": "Services",
+    "rfq": "Request a Quote (RFQ)",
+    "privacy": "Privacy",
+    "terms": "Terms & Conditions",
+    "madeby": "Made by",
+    "social": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "whatsapp": "WhatsApp"
+    }
+  },
+
+  "meta": {
+    "description": "Precision CNC machining, CAM programming and toolpath optimization. One-offs and small batches, Al/steel/stainless, tolerances down to ±0.01 mm.",
+    "title": "DK CAM Studio – Precision CNC machining and custom CAM programming",
+    "domain": "dkcamstudio.com",
+    "ogSubtitle": "Precision • Reliability • Fast turnaround"
+  },
+
+  "contact": {
+    "title": "Contact",
+    "note": "We typically reply within 24 hours.",
+    "studioName": "DK CAM Studio",
+    "address": "Address to be added",
+    "email": "Email",
+    "phone": "Phone",
+    "formNote": "Need to attach drawings? Use our RFQ form."
+  },
+
+  "hero": {
+    "eyebrow": "CNC • CAD/CAM",
+    "title": "Precision CNC machining and custom CAM programming",
+    "subtitle": "One-offs and small batches • Aluminum / steel / stainless • Tolerances down to ±0.01 mm",
+    "ctaPrimary": "Request a Quote (RFQ)",
+    "ctaSecondary": "Our services"
+  },
+
+  
+  "services": {
+    "title": "Services",
+    "intro": "Job machining, CAM programming and process optimisation – from first part to small series.",
+    "more": "Service details →",
+    
+    "items": [
+      {
+        "slug": "milling",
+        "title": "CNC milling",
+        "title2": "Precision 3–4-axis milling",
+        "description": "3/4 axes, single parts & batches. Clean surfaces and stable tolerances.",
+        "description2": "Aluminium, steel and stainless with focus on quality, repeatability and cycle time.",
+        "bullets": [
+          "3–4-axis milling, HSM strategies",
+          "Tolerances down to ±0.01 mm (part & workholding dependent)",
+          "Surface roughness to Ra 1.6 μm",
+          "Al 6061/7075, steel, stainless, brass, engineering plastics",
+          "Singles and small series"
+        ]
+      },
+      {
+        "slug": "turning",
+        "title": "CNC turning",
+        "title2": "Rotational parts with precise threads",
+        "description": "Rotational components, threads and accurate shoulders.",
+        "description2": "Turning stainless steel and aluminium with clean finishes and tight dimensions.",
+        "bullets": [
+          "Turning of steel / stainless / aluminium",
+          "Internal & external threads",
+          "Stable dimensions and repeatability",
+          "Small to medium batches"
+        ]
+      },
+      {
+        "slug": "cam",
+        "title": "CAM programming",
+        "title2": "Programs for fast and safe production",
+        "description": "Fusion 360 / SolidCAM – 3+2/5-axis strategies, simulations, post processors.",
+        "description2": "Toolpath creation & optimisation, postprocessor setup, tool libraries and collision simulation.",
+        "bullets": [
+          "Fusion 360 / SolidCAM",
+          "3+2 and 5-axis strategies, HEM",
+          "Collision simulation & process validation",
+          "Tool standards and libraries",
+          "NC handover incl. setup"
+        ]
+      },
+      {
+        "slug": "prototyping",
+        "title": "Prototyping",
+        "title2": "Rapid prototypes and fixtures",
+        "description": "Functional samples, workholding fixtures and small series.",
+        "description2": "Support from first prototype to repeatable fixture. Iterations and changes included.",
+        "bullets": [
+          "Short lead times, clear change communication",
+          "Reverse engineering from STEP/DXF/DWG",
+          "Simple to complex fixtures",
+          "Assembly and metrology aids"
+        ]
+      },
+      {
+        "slug": "toolpath",
+        "title": "Toolpath optimisation",
+        "title2": "Shorter cycles, longer tool life",
+        "description": "Better strategies = less vibration, cleaner surfaces, shorter times.",
+        "description2": "We refine programs and strategies for stability, quality and reduced wear.",
+        "bullets": [
+          "Cycle time reduced by double-digit %",
+          "More stable process, fewer vibrations",
+          "Longer tool life",
+          "Cleaner finish, less burr"
+        ]
+      },
+      {
+        "slug": "quality",
+        "title": "Measurement & quality",
+        "title2": "Inspection and reports as required",
+        "description": "Dimensional inspection, reports, first article (FAI).",
+        "description2": "Measurement reports, material certs and photo documentation on request.",
+        "bullets": [
+          "100% inspection of critical dimensions",
+          "Inspection reports on request",
+          "FAI / first article inspection",
+          "Material certificates"
+        ]
+      }
+    ]
+  
+},
+
+  "capabilities": {
+    "title": "Capabilities & technology",
+    "intro": "What we routinely make and the tools we use.",
+    "items": [
+      { "label": "Materials", "value": "Al 6061/7075, steel, stainless, brass, POM, PA6" },
+      { "label": "Max. part size", "value": "X 500 × Y 400 × Z 300 mm" },
+      { "label": "Tolerances", "value": "down to ±0.01 mm (part & fixturing dependent)" },
+      { "label": "Roughness", "value": "Ra 1.6 μm (on request)" },
+      { "label": "CAM", "value": "Fusion 360 / SolidCAM" },
+      { "label": "Lead times", "value": "typically 3–7 days, express on request" }
+    ]
+  },
+
+  "ctaRfq": {
+    "title": "Have a drawing or STEP? Send an RFQ.",
+    "subtitle": "We’ll respond within 24 h with price and lead time.",
+    "buttonLabel": "Request production"
+  },
+
+  
+  "work": {
+    "title": "Parts gallery",
+    "intro": "Photorealistic examples of parts and small jobs.",
+    "industriesTitle": "Industries & use-cases",
+    "subtitle": "Photographs and references of various components, fixtures, and machined parts.",
+    "filterAll": "All",
+    "shuffle": "Shuffle",
+
+"industries": {
+  "title": "Industries & use-cases",
+  "subtitle": "Where your parts typically end up.",
+  "items": [
+    {
+      "title": "Robotics & automation",
+      "desc": "Fixtures, brackets, housings.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Aerospace prototypes",
+      "desc": "Precision, thin walls, Al 7075.",
+      "icon": "rocket"
+    },
+    {
+      "title": "Motorsport",
+      "desc": "Small batches, fast lead times.",
+      "icon": "gauge"
+    },
+    {
+      "title": "Defense",
+      "desc": "Traceability, QC reports.",
+      "icon": "shield"
+    }
+  ]
+}
+,
+
+
+
+"items": [
+  {
+    "title": "Camera bracket",
+    "image": "/work/work-milling-1600x1000.jpg",
+    "tags": ["milling", "Al 7075", "anodized", "3-axis"]
+  },
+  {
+    "title": "Grooved shaft",
+    "image": "/work/work-turning-1600x1000.jpg",
+    "tags": ["turning", "stainless 1.4301", "groove"]
+  },
+  {
+    "title": "Clamping fixture",
+    "image": "/work/work-toolpath-1600x1000.jpg",
+    "tags": ["fixture", "steel"]
+  }
+]
+
+},
+
+
+
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "How we process personal data and how cookies work.",
+    "controller": "Controller",
+    "scope": "What data we process",
+    "cookies": "Cookies",
+    "cookiesNote": "You can change your cookie preferences at any time.",
+    "openCookies": "Cookie settings",
+    "legal": "Legal bases & retention",
+    "rights": "Your rights",
+    "updated": "Last updated"
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "intro": "Contractual terms for quotations, orders and deliveries.",
+    "quotes": "Quotations & pricing",
+    "quality": "Quality & tolerances",
+    "delivery": "Delivery & lead times",
+    "ip": "Confidentiality & IP",
+    "warranty": "Warranty & returns",
+    "updated": "Last updated"
+  }
+,
+
+
+
+
+  "proof": {
+    "items": [
+      { "kind": "response",  "text": "Response within 24 h" },
+      { "kind": "batch",     "text": "1–200 pcs" },
+      { "kind": "tolerance", "text": "Tolerance up to ±0.01 mm" },
+      { "kind": "roughness", "text": "Ra 1.6 µm (on request)" },
+      { "kind": "materials", "text": "Aluminum, steel, stainless, brass, plastics" },
+      { "kind": "metrology", "text": "Measurement report on request" },
+      { "kind": "express",   "text": "Express manufacturing" }
+    ]
+  },
+  "process": {
+    "title": "How we work",
+    "items": [
+      { "icon": "upload",  "title": "Send STEP/PDF",    "text": "Quick DFM check and estimate." },
+      { "icon": "cpu",     "title": "CAM strategy",     "text": "Tooling, toolpaths and QC plan." },
+      { "icon": "package", "title": "Manufacture & QC", "text": "Delivery with measurement report; express possible." }
+    ]
+  },
+  "cases": {
+    "title": "Featured cases",
+    
+    "subtitle": "Process snapshots and parameters of selected parts.",
+    "readMore": "Read more →",
+    "items": [
+      {
+        "slug": "clamping-fixture",
+        "title": "Clamping fixture",
+        "summary": "Steel fixture for series workholding; heat-treated.",
+        "image": "/work/work-toolpath-1600x1000.jpg",
+        "metrics": ["C45", "±0.02 mm", "5 days"],
+        "placeholder": true
+      },
+      {
+        "slug": "grooved-shaft",
+        "title": "Grooved shaft",
+        "summary": "Turning + groove milling, stainless 1.4301.",
+        "image": "/work/work-turning-1600x1000.jpg",
+        "metrics": ["1.4301", "Ra 1.6 µm", "40 pcs"],
+        "placeholder": true
+      }
+    ]
+  }
+}

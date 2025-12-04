@@ -1,0 +1,323 @@
+{
+  "nav": {
+    "home": "Domů",
+    "services": "Služby",
+    "rfq": "Poptávka (RFQ)",
+    "contact": "Kontakt"
+  },
+
+  "rfq": {
+    "title": "Poptávka (RFQ)",
+    "thanksTitle": "Děkujeme! Vaši poptávku jsme obdrželi.",
+    "thanksSubtitle": "Brzy se vám ozveme.",
+    "note": "Přiložte výkres nebo STEP/IGES a uveďte materiál, množství, toleranci a požadovaný termín.",
+    "name": "Jméno a příjmení",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "message": "Zpráva / specifikace",
+    "files": "Přílohy (STEP/PDF aj.)",
+    "submit": "Odeslat poptávku",
+    "success": "Děkujeme! Brzy se vám ozveme s cenou a termínem.",
+    "error": "Odeslání se nezdařilo. Zkuste to prosím znovu nebo nás kontaktujte telefonicky."
+  },
+
+  "footer": {
+    "rights": "Všechna práva vyhrazena.",
+    "links": "Odkazy",
+    "legal": "Právní informace",
+    "contact": "Kontakt",
+    "services": "Služby",
+    "rfq": "Poptávka (RFQ)",
+    "privacy": "Ochrana soukromí",
+    "terms": "Obchodní podmínky",
+    "madeby": "Vytvořil",
+    "social": {
+      "email": "E-mail",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "whatsapp": "WhatsApp"
+    }
+  },
+
+
+
+
+ "legal": {
+  "title": "Právní informace",
+  "privacy": "Zásady zpracování osobních údajů",
+  "terms": "Obchodní podmínky",
+  "updated": "Poslední aktualizace: 30. 11. 2025",
+  "disclaimer": "Text na této stránce má pouze informativní a dočasný charakter. Nejedná se o právní poradenství."
+},
+"privacyPage": {
+  "intro": "Níže najdete základní informace o tom, jak nakládáme s osobními údaji v rámci poptávek na CNC výrobu a souvisejících služeb.",
+  "sections": [
+    {
+      "title": "1. Správce osobních údajů",
+      "body": "Správcem osobních údajů je DakuTec s.r.o. (pracovní název), sídlo bude doplněno. Tento text je pouze placeholder a bude nahrazen po konzultaci s právníkem."
+    },
+    {
+      "title": "2. Jaké údaje zpracováváme",
+      "body": "Zpracováváme zejména identifikační a kontaktní údaje, technické podklady k zakázce a komunikaci s Vámi. Konkrétní rozsah a právní důvody zpracování budou doplněny v plné verzi zásad."
+    },
+    {
+      "title": "3. Cookies a analytika",
+      "body": "Web aktuálně používá pouze základní technické cookies potřebné pro jeho fungování. Jakmile doplníme analytické nebo marketingové nástroje, text zásad zpracování osobních údajů a cookies bude aktualizován."
+    },
+    {
+      "title": "4. Vaše práva",
+      "body": "V souladu s GDPR máte právo na přístup k údajům, opravu, výmaz, omezení zpracování a další práva subjektu údajů. Konkrétní postup uplatnění práv doplníme v konečné verzi dokumentu."
+    }
+  ]
+},
+"termsPage": {
+  "intro": "Níže najdete základní rámec spolupráce pro CNC výrobu a související služby. Text je pracovní a bude později nahrazen plnohodnotnými obchodními podmínkami.",
+  "sections": [
+    {
+      "title": "1. Předmět služeb",
+      "body": "DakuTec poskytuje zejména CNC obrábění, CAM programování, přípravu upínacích přípravků a související technické konzultace. Konkrétní rozsah je vždy definován v nabídce nebo objednávce."
+    },
+    {
+      "title": "2. Nabídka a cenová kalkulace",
+      "body": "Ceny jsou stanoveny individuálně podle složitosti dílů, materiálu, požadovaných tolerancí a termínu dodání. Nabídka má obvykle omezenou časovou platnost a může být podmíněna dodáním kompletních podkladů."
+    },
+    {
+      "title": "3. Dodací termíny",
+      "body": "Termín dodání je vždy orientační a může být ovlivněn dostupností materiálu, změnami specifikace a dalšími faktory. Konkrétní ustanovení o prodlení a smluvních pokutách budou doplněny v konečné verzi podmínek."
+    },
+    {
+      "title": "4. Odpovědnost a kvalita",
+      "body": "Zakázky vyrábíme s důrazem na přesnost, opakovatelnost a sledovatelnost. Finální úprava ustanovení o odpovědnosti za škodu, reklamacích a záručních podmínkách bude provedena po konzultaci s právníkem."
+    }
+  ]
+},
+
+
+
+  "meta": {
+    "description": "Přesné CNC obrábění, CAM programování a optimalizace drah. Kusy i malé série, Al/ocel/nerez, tolerance až ±0,01 mm.",
+    "title": "DakuTec ",
+    "domain": "DakuTec.com",
+    "ogSubtitle": "Přesnost • Spolehlivost • Rychlé dodání"
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "note": "Odpovíme obvykle do 24 hodin.",
+    "studioName": "DakuTec",
+    "address": "Adresa bude doplněna",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "formNote": "Potřebujete k poptávce přiložit výkresy? Využijte náš RFQ formulář."
+  },
+
+  "hero": {
+    "eyebrow": "CNC • CAD/CAM",
+    "title": "Přesné CNC obrábění a CAM programování na míru",
+    "subtitle": "Kusy i malé série • Hliník / ocel / nerez • Tolerance až ±0,01 mm",
+    "ctaPrimary": "Poptat výrobu (RFQ)",
+    "ctaSecondary": "Naše služby"
+  },
+
+ 
+  "services": {
+    "title": "Služby",
+    "intro": "Zakázková výroba, CAM programování a zrychlování procesů. Od prvního kusu po malé série.",
+    "more": "Detail služby →",
+    
+    "items": [
+      {
+        "slug": "milling",
+        "title": "CNC frézování",
+        "title2": "Přesné 3–4osé frézování",
+        "description": "3/4 osy, kusy i série. Čisté povrchy a stabilní tolerance.",
+        "description2": "Frézování hliníku, oceli i nerezu s důrazem na kvalitu, opakovatelnost a čas cyklu.",
+        "bullets": [
+          "3–4osé frézování, HSM strategie",
+          "Tolerance až ±0,01 mm (dle dílu a upnutí)",
+          "Povrchy až Ra 1,6 μm",
+          "Al 6061/7075, ocel, nerez, mosaz, technické plasty",
+          "Kusy i malé série"
+        ]
+      },
+      {
+        "slug": "turning",
+        "title": "CNC soustružení",
+        "title2": "Rotační díly s přesnými závity",
+        "description": "Rotační díly, závity a přesné dosedy.",
+        "description2": "Soustružení nerezové oceli i hliníku s důrazem na čistotu ploch a přesnost rozměrů.",
+        "bullets": [
+          "Soustružení oceli / nerezu / hliníku",
+          "Vnitřní i vnější závity",
+          "Stabilní rozměry a opakovatelnost",
+          "Malé až střední série"
+        ]
+      },
+      {
+        "slug": "cam",
+        "title": "CAM programování",
+        "title2": "Programy pro rychlou a bezpečnou výrobu",
+        "description": "Fusion 360 / SolidCAM – 3+2/5osé strategie, simulace, postprocesory.",
+        "description2": "Tvorba a optimalizace drah, nastavení postprocesoru, knihovny nástrojů a bezpečnostní simulace.",
+        "bullets": [
+          "Fusion 360 / SolidCAM",
+          "3+2 a 5osé strategie, HEM",
+          "Simulace kolizí, validace procesu",
+          "Standardy nástrojů a knihovny",
+          "Předání NC + nastavení"
+        ]
+      },
+      {
+        "slug": "prototyping",
+        "title": "Prototyping",
+        "title2": "Rychlé prototypy a přípravky",
+        "description": "Funkční vzorky, upínací přípravky a malé série.",
+        "description2": "Pomůžeme s prvním prototypem i přípravkem pro opakovanou výrobu. Podpora změn a iterací.",
+        "bullets": [
+          "Rychlé termíny, komunikace změn",
+          "Reverzní inženýrství ze STEP/DXF/DWG",
+          "Jednoduché i sofistikované přípravky",
+          "Montážní i měřicí pomůcky"
+        ]
+      },
+      {
+        "slug": "toolpath",
+        "title": "Optimalizace drah",
+        "title2": "Zkraťte časy a prodlužte životnost nástrojů",
+        "description": "Lepší strategie = kratší cyklus, méně vibrací, čistší povrch.",
+        "description2": "Upravíme programy a zvolíme strategie, které zlepší plynulost, kvalitu a sníží opotřebení.",
+        "bullets": [
+          "Zkrácení času cyklu o desítky %",
+          "Stabilnější proces a méně vibrací",
+          "Delší životnost nástrojů",
+          "Čistší povrch, méně otřepů"
+        ]
+      },
+      {
+        "slug": "quality",
+        "title": "Měření a kvalita",
+        "title2": "Kontrola a protokoly podle potřeby",
+        "description": "Kontrola rozměrů, protokoly, první kus (FAI).",
+        "description2": "Dodáme protokoly měření, materiálové certifikáty a fotodokumentaci podle požadavků.",
+        "bullets": [
+          "100% kontrola kritických rozměrů",
+          "Protokoly měření na přání",
+          "FAI / first article inspection",
+          "Materiálové certifikáty"
+        ]
+      }
+    ]
+  
+
+
+  },
+
+  "capabilities": {
+    "title": "Schopnosti a technika",
+    "intro": "Co běžně děláme a s čím pracujeme.",
+    "items": [
+      { "label": "Materiály", "value": "Al 6061/7075, ocel, nerez, mosaz, POM, PA6" },
+      { "label": "Max. rozměr obrobku", "value": "X 500 × Y 400 × Z 300 mm" },
+      { "label": "Tolerance", "value": "až ±0,01 mm (dle dílu a upnutí)" },
+      { "label": "Drsnost", "value": "Ra 1,6 μm (na požadavek)" },
+      { "label": "CAM", "value": "Fusion 360 / SolidCAM" },
+      { "label": "Termíny", "value": "obvykle 3–7 dní, expres na dotaz" }
+    ]
+  },
+
+  "ctaRfq": {
+    "title": "Máte výkres nebo STEP? Pošlete RFQ.",
+    "subtitle": "Do 24 h odpovíme s cenou a termínem.",
+    "buttonLabel": "Poptat výrobu"
+  },
+
+  
+ "work": {
+  "title": "Galerie dílů",
+  "subtitle": "Fotografie a ukázky různých součástí, upínačů a obrobků.",
+  "intro": "Fotorealistické ukázky dílů a menších zakázek.",
+  "industriesTitle": "Odvětví a use-cases", 
+  
+
+  
+  "industries": {
+    "title": "Odvětví a použití",
+    "subtitle": "Kam typicky směřují vyrobené díly.",
+    "items": [
+      {
+        "title": "Robotika a automatizace",
+        "desc": "Přípravky, konzoly, skříně.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Letecké prototypy",
+        "desc": "Přesnost, tenké stěny, Al 7075.",
+        "icon": "rocket"
+      },
+      {
+        "title": "Motorsport",
+        "desc": "Menší série, krátké termíny.",
+        "icon": "gauge"
+      },
+      {
+        "title": "Obranný průmysl",
+        "desc": "Sledovatelnost, kontrolní protokoly.",
+        "icon": "shield"
+      }
+    ]
+  },
+
+  "filterAll": "Vše",
+  "shuffle": "Promíchat",
+  "items": [
+    { "title": "Držák kamery", "image": "/work/work-milling-1600x1000.jpg", "tags": ["milling","Al 7075","anodized","3-axis"] },
+    { "title": "Hřídel s drážkami", "image": "/work/work-turning-1600x1000.jpg", "tags": ["turning","stainless 1.4301","groove"] },
+    { "title": "Upínací přípravek", "image": "/work/work-toolpath-1600x1000.jpg", "tags": ["fixture","steel"] }
+  ]
+},
+
+  "proof": {
+    "items": [
+      { "kind": "response", "text": "Odpověď do 24 h" },
+      { "kind": "batch", "text": "1–200 ks" },
+      { "kind": "tolerance", "text": "Tolerance až ±0,01 mm" },
+      { "kind": "roughness", "text": "Ra 1,6 µm (na požádání)" },
+      { "kind": "materials", "text": "Al, ocel, nerez, mosaz, plasty" },
+      { "kind": "metrology", "text": "Měřicí protokol na požádání" },
+      { "kind": "express", "text": "Expres výroba" }
+    ]
+  },
+  "process": {
+    "title": "Jak pracujeme",
+    "items": [
+      { "icon": "upload", "title": "Pošlete STEP/PDF", "text": "Rychlé DFM doporučení a orientační kalkulace." },
+      { "icon": "cpu", "title": "CAM strategie", "text": "Zvolíme nástroje, dráhy a kontrolu kvality." },
+      { "icon": "package", "title": "Výroba & měření", "text": "Dodání se zápisem z měření – na přání expres." }
+    ]
+  },
+
+
+ "cases": {
+  "title": "Ukázkové realizace",
+  "subtitle": "Procesní ukázky a parametry vybraných dílů.",
+  "items": [
+    {
+      "slug": "upinaci-pripavek",
+      "title": "Upínací přípravek",
+      "summary": "Ocelový přípravek pro sériové upnutí; tepelné zpracování.",
+      "image": "/work/work-toolpath-1600x1000.jpg",
+      "metrics": ["C45", "±0,02 mm", "5 dní"],
+      "placeholder": true
+    },
+    {
+      "slug": "hridel-s-drazkami",
+      "title": "Hřídel s drážkami",
+      "summary": "Soustružení + drážkování, nerez 1.4301.",
+      "image": "/work/work-turning-1600x1000.jpg",
+      "metrics": ["1.4301", "Ra 1,6 µm", "40 ks"],
+      "placeholder": true
+    }
+  ]
+}
+
+}

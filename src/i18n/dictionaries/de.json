@@ -1,0 +1,314 @@
+{
+  "nav": {
+    "home": "Start",
+    "services": "Leistungen",
+    "rfq": "Anfrage (RFQ)",
+    "contact": "Kontakt"
+  },
+
+  "rfq": {
+    "title": "Angebotsanfrage (RFQ)",
+    "thanksTitle": "Vielen Dank! Ihre Anfrage ist eingegangen.",
+    "thanksSubtitle": "Wir melden uns in Kürze.",
+    "note": "Fügen Sie eine Zeichnung oder STEP/IGES bei und nennen Sie Material, Stückzahl, Toleranz und gewünschten Termin.",
+    "name": "Vor- und Nachname",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "message": "Nachricht / Spezifikation",
+    "files": "Anhänge (STEP/PDF u. a.)",
+    "submit": "Anfrage senden",
+    "success": "Vielen Dank! Wir melden uns in Kürze mit Preis und Lieferzeit.",
+    "error": "Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns telefonisch."
+  },
+
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "links": "Links",
+    "legal": "Rechtliches",
+    "contact": "Kontakt",
+    "services": "Leistungen",
+    "rfq": "Anfrage (RFQ)",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "madeby": "Erstellt von",
+    "social": {
+      "email": "E-Mail",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "whatsapp": "WhatsApp"
+    }
+  },
+
+  "meta": {
+    "description": "Präzisions-CNC-Bearbeitung, CAM-Programmierung und Toolpath-Optimierung. Einzelteile und Kleinserien, Al/Stahl/Edelstahl, Toleranzen bis ±0,01 mm.",
+    "title": "DK CAM Studio – Präzisions-CNC-Bearbeitung und CAM-Programmierung nach Maß",
+    "domain": "dkcamstudio.com",
+    "ogSubtitle": "Präzision • Zuverlässigkeit • Schnelle Lieferung"
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "note": "Wir antworten in der Regel innerhalb von 24 Stunden.",
+    "studioName": "DK CAM Studio",
+    "address": "Adresse wird ergänzt",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "formNote": "Möchten Sie Zeichnungen beilegen? Nutzen Sie bitte unser RFQ-Formular."
+  },
+
+  "hero": {
+    "eyebrow": "CNC • CAD/CAM",
+    "title": "Präzisions-CNC-Bearbeitung und CAM-Programmierung nach Maß",
+    "subtitle": "Einzelteile und Kleinserien • Aluminium / Stahl / Edelstahl • Toleranzen bis ±0,01 mm",
+    "ctaPrimary": "Anfrage (RFQ)",
+    "ctaSecondary": "Unsere Leistungen"
+  },
+
+  
+  "services": {
+    "title": "Leistungen",
+    "intro": "Auftragsfertigung, CAM-Programmierung und Prozessbeschleunigung – vom ersten Teil bis zur Kleinserie.",
+    "more": "Leistungsdetails →",
+    
+    "items": [
+      {
+        "slug": "milling",
+        "title": "CNC-Fräsen",
+        "title2": "Präzises 3–4-Achs-Fräsen",
+        "description": "3/4 Achsen, Einzelteile und Serien. Saubere Oberflächen und stabile Toleranzen.",
+        "description2": "Fräsen von Aluminium, Stahl und Edelstahl mit Fokus auf Qualität, Wiederholgenauigkeit und Zykluszeit.",
+        "bullets": [
+          "3–4-Achs-Fräsen, HSM-Strategien",
+          "Toleranzen bis ±0,01 mm (je nach Teil und Spannung)",
+          "Oberflächen bis Ra 1,6 μm",
+          "Al 6061/7075, Stahl, Edelstahl, Messing, technische Kunststoffe",
+          "Einzelteile und Kleinserien"
+        ]
+      },
+      {
+        "slug": "turning",
+        "title": "CNC-Drehen",
+        "title2": "Rotationsteile mit präzisen Gewinden",
+        "description": "Rotationsteile, Gewinde und genaue Auflageflächen.",
+        "description2": "Drehen von Edelstahl und Aluminium mit Fokus auf Oberflächengüte und Maßhaltigkeit.",
+        "bullets": [
+          "Drehen von Stahl / Edelstahl / Aluminium",
+          "Innen- und Außengewinde",
+          "Stabile Maße und Wiederholgenauigkeit",
+          "Kleine bis mittlere Serien"
+        ]
+      },
+      {
+        "slug": "cam",
+        "title": "CAM-Programmierung",
+        "title2": "Programme für schnelle und sichere Fertigung",
+        "description": "Fusion 360 / SolidCAM – 3+2/5-Achs-Strategien, Simulationen, Postprozessoren.",
+        "description2": "Erstellung und Optimierung von Werkzeugwegen, Postprozessor-Setup, Werkzeugbibliotheken und Kollisionssimulation.",
+        "bullets": [
+          "Fusion 360 / SolidCAM",
+          "3+2 und 5-Achs-Strategien, HEM",
+          "Kollisionssimulation, Prozessvalidierung",
+          "Werkzeugstandards und Bibliotheken",
+          "Bereitstellung der NC-Programme inkl. Setup"
+        ]
+      },
+      {
+        "slug": "prototyping",
+        "title": "Prototyping",
+        "title2": "Schnelle Prototypen und Vorrichtungen",
+        "description": "Funktionsmuster, Spannvorrichtungen und Kleinserien.",
+        "description2": "Unterstützung vom ersten Prototyp bis zur wiederholbaren Vorrichtung. Änderungsservice inklusive.",
+        "bullets": [
+          "Kurze Lieferzeiten, saubere Änderungs­kommunikation",
+          "Reverse Engineering aus STEP/DXF/DWG",
+          "Einfache bis komplexe Vorrichtungen",
+          "Montage- und Messhilfen"
+        ]
+      },
+      {
+        "slug": "toolpath",
+        "title": "Toolpath-Optimierung",
+        "title2": "Kürzere Zeiten, längere Standzeiten",
+        "description": "Bessere Strategien = kürzere Zyklen, weniger Vibrationen, bessere Oberflächen.",
+        "description2": "Wir verbessern Programme und Strategien für mehr Prozessstabilität, Qualität und geringeren Verschleiß.",
+        "bullets": [
+          "Zykluszeitverkürzung im zweistelligen Prozentbereich",
+          "Stabilerer Prozess, weniger Vibrationen",
+          "Längere Werkzeugstandzeiten",
+          "Bessere Oberflächen, weniger Grat"
+        ]
+      },
+      {
+        "slug": "quality",
+        "title": "Messung & Qualität",
+        "title2": "Prüfung und Protokolle nach Bedarf",
+        "description": "Maßprüfung, Protokolle, Erstmuster (FAI).",
+        "description2": "Messprotokolle, Materialzertifikate und Fotodokumentation gemäß Anforderungen.",
+        "bullets": [
+          "100% Prüfung kritischer Maße",
+          "Messprotokolle auf Wunsch",
+          "FAI / First Article Inspection",
+          "Materialzertifikate"
+        ]
+      }
+    ]
+  },
+
+
+  "capabilities": {
+    "title": "Fähigkeiten & Technik",
+    "intro": "Was wir regelmäßig fertigen und womit wir arbeiten.",
+    "items": [
+      { "label": "Materialien", "value": "Al 6061/7075, Stahl, Edelstahl, Messing, POM, PA6" },
+      { "label": "Max. Werkstückgröße", "value": "X 500 × Y 400 × Z 300 mm" },
+      { "label": "Toleranzen", "value": "bis ±0,01 mm (je nach Teil und Spannung)" },
+      { "label": "Rauheit", "value": "Ra 1,6 μm (auf Anfrage)" },
+      { "label": "CAM", "value": "Fusion 360 / SolidCAM" },
+      { "label": "Lieferzeiten", "value": "i. d. R. 3–7 Tage, Express auf Anfrage" }
+    ]
+  },
+
+  "ctaRfq": {
+    "title": "Zeichnung oder STEP vorhanden? Senden Sie eine RFQ.",
+    "subtitle": "Innerhalb von 24 h nennen wir Preis und Lieferzeit.",
+    "buttonLabel": "Produktion anfragen"
+  },
+
+  
+
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "intro": "Wie wir personenbezogene Daten verarbeiten und wie Cookies funktionieren.",
+    "controller": "Verantwortlicher",
+    "scope": "Welche Daten wir verarbeiten",
+    "cookies": "Cookies",
+    "cookiesNote": "Sie können Ihre Cookie-Einstellungen jederzeit ändern.",
+    "openCookies": "Cookie-Einstellungen",
+    "legal": "Rechtsgrundlagen & Aufbewahrung",
+    "rights": "Ihre Rechte",
+    "updated": "Aktualisiert am"
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "intro": "Vertragsbedingungen für Angebote, Bestellungen und Lieferungen.",
+    "quotes": "Angebote & Preise",
+    "quality": "Qualität & Toleranzen",
+    "delivery": "Lieferung & Lieferzeiten",
+    "ip": "Vertraulichkeit & IP",
+    "warranty": "Gewährleistung & Reklamationen",
+    "updated": "Aktualisiert am"
+  },
+
+
+
+
+
+
+
+
+
+
+
+"legal": {
+  "title": "Rechtliches",
+  "privacy": "Datenschutzerklärung",
+  "terms": "Allgemeine Geschäftsbedingungen",
+  "updated": "Letzte Aktualisierung: 30.11.2025",
+  "disclaimer": "Die Texte auf dieser Seite sind vorläufige Platzhalter und stellen keine Rechtsberatung dar."
+},
+"privacyPage": {
+  "intro": "Unten finden Sie grundlegende Informationen darüber, wie wir personenbezogene Daten im Rahmen von Anfragen und CNC-Fertigungsdienstleistungen verarbeiten.",
+  "sections": [
+    {
+      "title": "1. Verantwortlicher",
+      "body": "Verantwortlicher für die Verarbeitung personenbezogener Daten ist DakuTec s.r.o. (Arbeitstitel), Sitz wird ergänzt. Dieser Text ist ein Platzhalter und wird nach Rücksprache mit einer Rechtsberatung angepasst."
+    },
+    {
+      "title": "2. Welche Daten wir verarbeiten",
+      "body": "Wir verarbeiten vor allem Identifikations- und Kontaktdaten, technische Unterlagen zu Ihren Bauteilen sowie die Kommunikation mit Ihnen. Der genaue Umfang und die Rechtsgrundlagen werden in der finalen Version der Datenschutzerklärung ergänzt."
+    },
+    {
+      "title": "3. Cookies und Analyse",
+      "body": "Die Website verwendet derzeit nur technisch notwendige Cookies, die für den Betrieb erforderlich sind. Sobald Analyse- oder Marketingtools eingesetzt werden, wird dieser Abschnitt entsprechend aktualisiert."
+    },
+    {
+      "title": "4. Ihre Rechte",
+      "body": "Nach der DSGVO haben Sie unter anderem das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung. Die konkrete Beschreibung der Ausübung dieser Rechte wird in der endgültigen Fassung des Dokuments ergänzt."
+    }
+  ]
+},
+"termsPage": {
+  "intro": "Im Folgenden finden Sie einen vorläufigen Rahmen für die Zusammenarbeit im Bereich CNC-Bearbeitung und verwandter Dienstleistungen. Dieser Text ist vorläufig und wird später durch vollständige AGB ersetzt.",
+  "sections": [
+    {
+      "title": "1. Leistungsumfang",
+      "body": "DakuTec bietet hauptsächlich CNC-Bearbeitung, CAM-Programmierung, Spannvorrichtungen und technische Beratung an. Der genaue Leistungsumfang wird jeweils im Angebot oder in der Bestellung definiert."
+    },
+    {
+      "title": "2. Angebot und Preise",
+      "body": "Die Preise werden individuell nach Bauteilkomplexität, Material, Toleranzen und gewünschter Lieferzeit kalkuliert. Jedes Angebot ist nur für einen begrenzten Zeitraum gültig und kann von vollständigen technischen Unterlagen abhängen."
+    },
+    {
+      "title": "3. Lieferfristen",
+      "body": "Liefertermine sind Richtwerte und können u. a. durch Materialverfügbarkeit oder Konstruktionsänderungen beeinflusst werden. Konkrete Regelungen zu Verzögerungen und Vertragsstrafen werden in der finalen AGB-Version ergänzt."
+    },
+    {
+      "title": "4. Haftung und Qualität",
+      "body": "Wir fertigen mit Fokus auf Präzision, Wiederholgenauigkeit und Nachvollziehbarkeit. Die endgültigen Regelungen zu Haftung, Gewährleistung und Reklamationen folgen nach rechtlicher Prüfung."
+    }
+  ]
+},
+"work": {
+  "title": "Teile-Galerie",
+  "subtitle": "Fotos und Referenzen verschiedener Bauteile, Spannvorrichtungen und Werkstücke.",
+  "intro": "Fotorealistische Beispiele von Teilen und kleinen Aufträgen.",
+  "industriesTitle": "Branchen & Use-Cases",
+
+  "industries": {
+    "title": "Branchen & Use-Cases",
+    "subtitle": "Wo Ihre Bauteile typischerweise eingesetzt werden.",
+    "items": [
+      {
+        "title": "Robotik & Automatisierung",
+        "desc": "Spannvorrichtungen, Halterungen, Gehäuse.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Luft- und Raumfahrtprototypen",
+        "desc": "Präzision, dünne Wände, Al 7075.",
+        "icon": "rocket"
+      },
+      {
+        "title": "Motorsport",
+        "desc": "Kleinserien, kurze Lieferzeiten.",
+        "icon": "gauge"
+      },
+      {
+        "title": "Verteidigungsindustrie",
+        "desc": "Rückverfolgbarkeit, Prüfprotokolle.",
+        "icon": "shield"
+      }
+    ]
+  },
+
+  "filterAll": "Alle",
+  "shuffle": "Mischen",
+  "items": [
+    {
+      "title": "Kamerahalterung",
+      "image": "/work/work-milling-1600x1000.jpg",
+      "tags": ["milling", "Al 7075", "anodized", "3-axis"]
+    },
+    {
+      "title": "Welle mit Nuten",
+      "image": "/work/work-turning-1600x1000.jpg",
+      "tags": ["turning", "stainless 1.4301", "groove"]
+    },
+    {
+      "title": "Spannvorrichtung",
+      "image": "/work/work-toolpath-1600x1000.jpg",
+      "tags": ["fixture", "steel"]
+    }
+  ]
+}
+}
