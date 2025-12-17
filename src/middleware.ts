@@ -3,7 +3,6 @@ import { isLocale, type Locale } from "@/i18n";
 
 const PUBLIC_FILE = /\.(.*)$/;
 
-// jaký jazyk je default pro kterou doménu
 function getDefaultLocaleForHost(hostname: string | null): Locale {
   const host = hostname?.split(":")[0].toLowerCase();
 
@@ -19,7 +18,6 @@ export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
   const hostname = req.headers.get("host");
 
-  // ignorujeme Next internals, API a statické soubory
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||
@@ -30,7 +28,7 @@ export function middleware(req: NextRequest) {
 
   const pathLocale = pathname.split("/")[1];
 
-  // když už je v URL locale (/cs, /en, /de), necháme to být
+  // když URL už má /cs, /en nebo /de, necháme ji být
   if (isLocale(pathLocale as Locale)) {
     return NextResponse.next();
   }
@@ -43,10 +41,10 @@ export function middleware(req: NextRequest) {
   // /services → /cs/services nebo /en/services
   url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
 
-  return NextResponse.rewrite(url);
+  // tady je rozdíl: REDIRECT místo REWRITE
+  return NextResponse.redirect(url);
 }
 
-// na co se middleware aplikuje
 export const config = {
   matcher: ["/((?!_next/|api/|favicon.ico|robots.txt|sitemap.xml|media/).*)"],
 };
