@@ -15,7 +15,7 @@ const PRIVACY_SECTIONS: Record<
     {
       heading: "Správce osobních údajů",
       body:
-        "Správcem osobních údajů je DakuTec (DK CAM Studio). Osobní údaje zpracováváme pouze v rozsahu nezbytném pro komunikaci se zákazníky, vyřízení poptávek a plnění smluv.",
+        "Správcem osobních údajů je DakuTec (DakuTec). Osobní údaje zpracováváme pouze v rozsahu nezbytném pro komunikaci se zákazníky, vyřízení poptávek a plnění smluv.",
     },
     {
       heading: "Jaké údaje zpracováváme",
@@ -47,7 +47,7 @@ const PRIVACY_SECTIONS: Record<
     {
       heading: "Data controller",
       body:
-        "The data controller is DakuTec (DK CAM Studio). We process personal data only to the extent necessary to communicate with clients, handle RFQs, and fulfil contractual obligations.",
+        "The data controller is DakuTec (DakuTec). We process personal data only to the extent necessary to communicate with clients, handle RFQs, and fulfil contractual obligations.",
     },
     {
       heading: "What data we process",
@@ -79,7 +79,7 @@ const PRIVACY_SECTIONS: Record<
     {
       heading: "Verantwortlicher für die Datenverarbeitung",
       body:
-        "Verantwortlich für die Verarbeitung personenbezogener Daten ist DakuTec (DK CAM Studio). Wir verarbeiten personenbezogene Daten nur in dem Umfang, der für die Kommunikation mit Kunden, die Bearbeitung von Anfragen und die Erfüllung vertraglicher Pflichten erforderlich ist.",
+        "Verantwortlich für die Verarbeitung personenbezogener Daten ist DakuTec (DakuTec). Wir verarbeiten personenbezogene Daten nur in dem Umfang, der für die Kommunikation mit Kunden, die Bearbeitung von Anfragen und die Erfüllung vertraglicher Pflichten erforderlich ist.",
     },
     {
       heading: "Welche Daten wir verarbeiten",
@@ -133,25 +133,26 @@ export default async function PrivacyPage({ params: { locale } }: PageProps) {
   return (
     <main className="container-app py-12">
       <Section
-        eyebrow={t.legal?.title ?? "Legal"}
-        title={t.legal?.privacy ?? "Privacy Policy"}
-        intro={
-          locale === "cs"
-            ? "Na této stránce najdete informace o tom, jak nakládáme s osobními údaji a cookies."
-            : locale === "de"
-            ? "Auf dieser Seite finden Sie Informationen darüber, wie wir mit personenbezogenen Daten und Cookies umgehen."
-            : "On this page you will find information about how we handle personal data and cookies."
-        }
-      >
-        <div className="panel pattern-card space-y-6">
-          {sections.map((section) => (
-            <section key={section.heading} className="space-y-2">
-              <h2 className="text-xl font-semibold">{section.heading}</h2>
-              <p className="muted leading-relaxed">{section.body}</p>
-            </section>
-          ))}
-        </div>
-      </Section>
+  eyebrow={t.legal?.title ?? "Legal"}
+  title={t.legal?.privacy ?? "Privacy Policy"}
+  intro={
+    locale === "cs"
+      ? "Na této stránce najdete informace o tom, jak nakládáme s osobními údaji a cookies."
+      : locale === "de"
+      ? "Auf dieser Seite finden Sie Informationen darüber, wie wir mit personenbezogenen Daten und Cookies umgehen."
+      : "On this page you will find information about how we handle personal data and cookies."
+  }
+>
+  <div className="panel pattern-card max-w-3xl mx-auto mt-8 px-6 sm:px-10 py-8 sm:py-10 space-y-6">
+    {sections.map((section) => (
+      <section key={section.heading} className="space-y-2">
+        <h2 className="text-xl font-semibold">{section.heading}</h2>
+        <p className="muted leading-relaxed">{section.body}</p>
+      </section>
+    ))}
+  </div>
+</Section>
+
     </main>
   );
 }

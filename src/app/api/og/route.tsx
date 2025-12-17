@@ -10,7 +10,7 @@ const interFont = fetch(
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
-  const title = (searchParams.get("title") ?? "DK CAM Studio").slice(0, 100);
+  const title = (searchParams.get("title") ?? "DakuTec").slice(0, 100);
   const fontData = await interFont;
 
   return new ImageResponse(

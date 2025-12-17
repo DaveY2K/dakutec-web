@@ -128,14 +128,14 @@ export default async function TermsPage({ params: { locale } }: PageProps) {
             : "Below you can find a working draft of the basic commercial terms for our services."
         }
       >
-        <div className="panel pattern-card space-y-6">
-          {sections.map((section) => (
-            <section key={section.heading} className="space-y-2">
-              <h2 className="text-xl font-semibold">{section.heading}</h2>
-              <p className="muted leading-relaxed">{section.body}</p>
-            </section>
-          ))}
-        </div>
+        <div className="panel pattern-card max-w-3xl mx-auto mt-8 px-6 sm:px-10 py-8 sm:py-10 space-y-6">
+    {sections.map((section) => (
+      <section key={section.heading} className="space-y-2">
+        <h2 className="text-xl font-semibold">{section.heading}</h2>
+        <p className="muted leading-relaxed">{section.body}</p>
+      </section>
+    ))}
+  </div>
       </Section>
     </main>
   );

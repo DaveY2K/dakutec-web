@@ -95,9 +95,9 @@
 
 
   "meta": {
-    "description": "Přesné CNC obrábění, CAM programování a optimalizace drah. Kusy i malé série, Al/ocel/nerez, tolerance až ±0,01 mm.",
-    "title": "DakuTec ",
-    "domain": "DakuTec.com",
+    "description": "Přesné CNC obrábění, CAM programování a optimalizace. Kusovka i malé série, Al/ocel/nerez, tolerance až ±0,01 mm.(podle požadavků)",
+    "title": "DakuTec",
+    "domain": "DakuTec.cz",
     "ogSubtitle": "Přesnost • Spolehlivost • Rychlé dodání"
   },
 
@@ -113,7 +113,7 @@
 
   "hero": {
     "eyebrow": "CNC • CAD/CAM",
-    "title": "Přesné CNC obrábění a CAM programování na míru",
+    "title": "Přesné CNC obrábění a CAM programování ",
     "subtitle": "Kusy i malé série • Hliník / ocel / nerez • Tolerance až ±0,01 mm",
     "ctaPrimary": "Poptat výrobu (RFQ)",
     "ctaSecondary": "Naše služby"

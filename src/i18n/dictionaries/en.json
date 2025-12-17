@@ -114,15 +114,15 @@
 
   "meta": {
     "description": "Precision CNC machining, CAM programming and toolpath optimization. One-offs and small batches, Al/steel/stainless, tolerances down to ±0.01 mm.",
-    "title": "DK CAM Studio – Precision CNC machining and custom CAM programming",
-    "domain": "dkcamstudio.com",
+    "title": "DakuTec",
+    "domain": "DakuTec.com",
     "ogSubtitle": "Precision • Reliability • Fast turnaround"
   },
 
   "contact": {
     "title": "Contact",
     "note": "We typically reply within 24 hours.",
-    "studioName": "DK CAM Studio",
+    "studioName": "DakuTec",
     "address": "Address to be added",
     "email": "Email",
     "phone": "Phone",
