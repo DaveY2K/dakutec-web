@@ -70,6 +70,8 @@ export async function POST(req: Request) {
       port,
       secure: port === 465, // 465 = SSL, 587 = STARTTLS
       auth: { user, pass },
+      authMethod: "LOGIN",
+  tls: { servername: host },
     });
 
     const subjectBase =
