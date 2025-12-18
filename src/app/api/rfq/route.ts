@@ -1,8 +1,10 @@
 // src/app/api/rfq/route.ts
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+export const runtime = "nodejs";
+export const preferredRegion = ["fra1"]; // Frankfurt (EU)
 
-export const runtime = "nodejs"; // kvůli Bufferu apod.
+
 
 // jednoduché escapování textu pro HTML
 function esc(str: string): string {
