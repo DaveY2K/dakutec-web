@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "src/app/api/rfq/route.ts": {
+      "regions": ["fra1"]
+    }
+  }
+}
