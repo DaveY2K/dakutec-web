@@ -4,6 +4,8 @@ import nodemailer from "nodemailer";
 export const runtime = "nodejs";
 export const preferredRegion = ["fra1"]; // Frankfurt (EU)
 
+export const runtime = "nodejs";
+export const preferredRegion = "fra1";
 
 
 // jednoduché escapování textu pro HTML
