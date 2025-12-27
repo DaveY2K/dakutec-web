@@ -1,8 +1,3 @@
 {
-  "regions": ["fra1"],
-  "functions": {
-    "src/app/api/rfq/route.ts": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "regions": ["fra1"]
 }
